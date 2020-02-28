@@ -36,12 +36,18 @@ main {
 
 #myCanvas {
   border: 5px solid black;
-  /* position: relative; */
 }
 
-#cross {
-  border: 5px solid red;
-  position: absolute;
+#b1x1 {
   top: 5;
   left: 0;
+}
+
+.button {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: #6b007c;
+  background-repeat: no-repeat;
+  background-position: center;
 }
