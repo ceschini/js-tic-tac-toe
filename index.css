@@ -1,0 +1,47 @@
+body {
+  background-color: #6b007c;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Title */
+.title {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+h1, h2 {
+  font-family: 'Lacquer';
+  margin-top: 0;
+  align-self: center;
+  font-size: 3rem;
+}
+
+/* Main */
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.canvas {
+  padding-top: 0.5rem;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+#myCanvas {
+  border: 5px solid black;
+  /* position: relative; */
+}
+
+#cross {
+  border: 5px solid red;
+  position: absolute;
+  top: 5;
+  left: 0;
+}
