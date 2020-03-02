@@ -4,17 +4,30 @@
 <head>
   <title>tic-tac-toe</title>
   <meta charset='utf-8'>
+  <link href='bootstrap.css' rel='stylesheet'>
   <link href='reset.css' rel='stylesheet'>
-  <link href="index.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Lacquer&display=swap" rel="stylesheet">
+  <link href='index.css' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Lacquer&display=swap' rel='stylesheet'>
 </head>
 
 <body>
   <main>
     <h1>Javascript</h1>
     <section class='canvas'>
-      <canvas id='myCanvas' width='600' height='600'></canvas>
-      <button type='button' id='b1x1' class='button' onclick="b1x1click()"></button>
+      <!-- <canvas id='myCanvas' width='600' height='600'></canvas> -->
+      <div class='container'>
+        <div class='row'>
+          <div class='col-sm'>
+            <button type='button' id='b1x1' class='button' onclick='btnclick(' b1x1')'></button>
+          </div>
+          <div class='col-sm'>
+            <button type='button' id='b1x2' class='button' onclick='btnclick(' b1x2')'></button>
+          </div>
+          <div class='col-sm'>
+            <button type='button' id='b1x3' class='button' onclick='btnclick(' b1x3')'></button>
+          </div>
+        </div>
+      </div>
     </section>
     <h2>Tic Tac Toe</h2>
   </main>
