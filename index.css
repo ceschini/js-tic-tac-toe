@@ -28,15 +28,6 @@ main {
   justify-content: space-around;
 }
 
-.canvas {
-  padding-top: 0.5rem;
-  margin-bottom: 20px;
-}
-
-#myCanvas {
-  border: 5px solid black;
-}
-
 .container {
   top: 5;
   left: 0;
