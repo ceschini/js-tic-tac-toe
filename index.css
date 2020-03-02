@@ -50,3 +50,7 @@ main {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.col-sm {
+  padding: 0;
+}
